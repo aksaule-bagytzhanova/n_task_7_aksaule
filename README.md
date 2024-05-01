@@ -3,3 +3,4 @@
 
 
 ## Database
+![Фото дб](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/Screenshot%202024-05-01%20at%2023.10.15.png)
