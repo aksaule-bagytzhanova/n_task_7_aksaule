@@ -3,8 +3,8 @@
 
 
 ## Database
-![Фото дб](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/Screenshot%202024-05-01%20at%2023.10.15.png)
+![Фото дб](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/DB.png)
 
 ## models.py
 С начала мое дб выглядело очень легким и приметивным, но после написания и проектирования я поняла что нужно внести более данные и в конечном итогу мои модельки выглядят так 
-
+![Фото models.py](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/models.png)
