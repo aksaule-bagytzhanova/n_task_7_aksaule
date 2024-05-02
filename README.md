@@ -29,3 +29,15 @@
     - Application 2: Concerts
 ```
 ![Фото project](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/project_s.png)
+
+
+## User 
+
+При написании моделек Юзера я использовала AbstractUser, что намного облегчело мне работу
+
+А дальше работа была примитивной, добавила form.py чтобы увеличить атрибуты AbstractUser и добавила поле для почты
+
+Все кнобки Логина поставила в navbar и все это разукрасила с bootstrap
+
+
+
