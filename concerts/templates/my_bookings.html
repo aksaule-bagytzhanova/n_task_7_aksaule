@@ -1,0 +1,24 @@
+{% extends "base_generic.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-3">My Bookings</h2>
+    <div class="list-group">
+        {% for booking in bookings %}
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">{{ booking.event.title }}</h5>
+                <small class="text-muted">Booked on: {{ booking.booking_time|date:"M d, Y H:i" }}</small>
+            </div>
+            <p class="mb-1">Status: {{ booking.status }}</p>
+            
+        </a>
+        {% empty %}
+        <div class="list-group-item">
+            No bookings found.
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
