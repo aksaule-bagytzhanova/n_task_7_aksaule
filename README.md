@@ -89,7 +89,6 @@
     4. python -m pip install -r requirements.txt
     5. pipenv shell 
     6. python manage.py migrate 
-    7. python manage.py makemigrations 
-    8. python manage.py runserver
-    9. Наслаждайтесь! 
+    7. python manage.py runserver
+    8. Наслаждайтесь! 
 ```
