@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils import timezone
-from django.contrib.auth.models import User
+from users.models import User
 
 
 # Create your models here.
@@ -9,28 +9,30 @@ class Event(models.Model):
     description = models.TextField()
     location = models.CharField(max_length=255)
     datetime = models.DateTimeField()
-    availabletickets = models.IntegerField()
-    totaltickets = models.IntegerField()
+    available_tickets = models.IntegerField()
+    total_tickets = models.IntegerField()
     price = models.FloatField() 
     
-class Users(models.Model):
-    user = models.OneToOneField(User, null=True, blank=True, on_delete=models.CASCADE)
-    email = models.CharField(max_length=255)
+    def __str__(self):
+        return self.title
     
 class Booking(models.Model):
     STATUS = (
+        ('New', 'New'),
         ('Confirmed', 'Confirmed'),
         ('Returned', 'Returned'),
         
     )
-    UserID = models.ForeignKey(Users)
-    EventID = models.ForeignKey(Event)
-    NumberOfTickets = models.IntegerField()
-    BookingDate = models.DateTimeField()
-    Status = models.CharField(choices=STATUS)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    event = models.ForeignKey(Event, on_delete=models.CASCADE)
+    booking_time = models.DateTimeField(auto_now_add=True)
+    status = models.CharField(choices=STATUS, max_length=64, default='New')
+    
+    def __str__(self):
+        return f"{self.user} {self.event} {self.status}"
 
 class CalendarIntegration(models.Model):
-    UserID = models.ForeignKey(Users)
-    EventID = models.ForeignKey(Event)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    event = models.ForeignKey(Event, on_delete=models.CASCADE)
     #CalendarEventID = 
-    SyncTime = models.DateTimeField(default=timezone.now)
+    sync_time = models.DateTimeField(default=timezone.now)
