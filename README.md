@@ -58,5 +58,25 @@
 
 ![Фото project](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/login_page.png)
 
+При регистрации уже выглядит так 
+
+![Фото project](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/сайт.png)
+
+Мои бронирования 
+
+![Фото project](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/bookings.png)
+
+И детально мероприятия 
+
+![Фото project](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/detail_events.png)
+
+## Admin panel 
+
+Тут как все изнутри выглядит 
+
+![Фото project](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/booking_page.png)
+![Фото project](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/create_new_event.png)
+![Фото project](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/admin_panel.png)
+![Фото project](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/user_list.png)
 
 
