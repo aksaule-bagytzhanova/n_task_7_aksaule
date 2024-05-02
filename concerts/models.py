@@ -29,7 +29,7 @@ class Booking(models.Model):
     status = models.CharField(choices=STATUS, max_length=64, default='New')
     
     def __str__(self):
-        return f"{self.user} {self.event} {self.status}
+        return f"{self.user} {self.event} {self.status}"
 
 class CalendarIntegration(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
