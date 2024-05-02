@@ -48,6 +48,15 @@
 
 Вот так выглядит страница когда человек не зарегистрирован 
 
-![Фото project](readme photos/new_user.png)
+![Фото project](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/new_user.png)
+
+И вот так когда он хочет забронировать билет без регистрации 
+
+![Фото project](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/You%20must%20log%20in%20.png)
+
+Логин страница 
+
+![Фото project](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/login_page.png)
+
 
 
