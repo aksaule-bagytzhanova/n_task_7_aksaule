@@ -39,5 +39,15 @@
 
 Все кнобки Логина поставила в navbar и все это разукрасила с bootstrap
 
+![Фото project](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/сайт.png)
+
+
+## Как выглядит сайт на самом деле? 
+
+Начнем с Логина и Регистрации 
+
+Вот так выглядит страница когда человек не зарегистрирован 
+
+![Фото project](readme photos/new_user.png)
 
 
