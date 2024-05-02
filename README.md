@@ -90,5 +90,11 @@
     5. pipenv shell 
     6. python manage.py migrate 
     7. python manage.py runserver
-    8. Наслаждайтесь! 
+    8. Наслаждайтесь!
+
+Важные ссылки:
+127.0.0.1:8000/concerts/ - главная страница 
+127.0.0.1:8000/admin/ - админка
+127.0.0.1:8000/concerts/bookings/ - букинг билетов
+
 ```
