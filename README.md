@@ -86,10 +86,10 @@
     1. git clone https://github.com/aksaule-bagytzhanova/n_task_7_aksaule.git
     2. Открываете проект
     3. Запускаете терминал
-    4. pipenv install Django==4.0.8
+    4. python -m pip install -r requirements.txt
     5. pipenv shell 
-    6. python manage.py runserver
-    7. python manage.py migrate 
-    8. python manage.py makemigrations
+    6. python manage.py migrate 
+    7. python manage.py makemigrations 
+    8. python manage.py runserver
     9. Наслаждайтесь! 
 ```
