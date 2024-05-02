@@ -28,3 +28,4 @@
     - Application 1: Users
     - Application 2: Concerts
 ```
+![Фото project](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/project_s.png)
