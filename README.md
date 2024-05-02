@@ -18,3 +18,13 @@
 И вот что у меня вышло в конце
 
 ![Фото models.py](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/models.png)
+
+## Структура проекта 
+
+В конечном итоге у меня вышло 1 проект и 2 приложения 
+
+```markdown
+    - Проект: website 
+    - Application 1: Users
+    - Application 2: Concerts
+```
