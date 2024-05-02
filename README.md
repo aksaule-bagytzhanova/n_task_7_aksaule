@@ -3,8 +3,28 @@
 
 
 ## Database
-![Фото дб](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/Screenshot%202024-05-01%20at%2023.10.15.png)
+![Фото дб](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/DB.png)
 
 ## models.py
-С начала мое дб выглядело очень легким и приметивным, но после написания и проектирования я поняла что нужно внести более данные и в конечном итогу мои модельки выглядят так 
+С начала мое дб выглядело очень легким и примитивным
 
+Но при процессе я поняла что: 
+
+```markdown
+    1. Нужно чтобы Юзеры и Мероприятия должны были связываться в бронировании 
+    2. Нужно было чтобы не зарегистрированные пользователи не могли зарегистрироваться на мероприятие и так далее 
+```
+
+И вот что у меня вышло в конце
+
+![Фото models.py](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/models.png)
+
+## Структура проекта 
+
+В конечном итоге у меня вышло 1 проект и 2 приложения 
+
+```markdown
+    - Проект: website 
+    - Application 1: Users
+    - Application 2: Concerts
+```
