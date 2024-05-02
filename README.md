@@ -80,3 +80,16 @@
 ![Фото project](https://github.com/aksaule-bagytzhanova/n_task_7_aksaule/blob/main/readme%20photos/user_list.png)
 
 
+<h3 align="center">Как запустить мой проект?</h3>
+
+```markdown
+    1. git clone https://github.com/aksaule-bagytzhanova/n_task_7_aksaule.git
+    2. Открываете проект
+    3. Запускаете терминал
+    4. pipenv install Django==4.0.8
+    5. pipenv shell 
+    6. python manage.py runserver
+    7. python manage.py migrate 
+    8. python manage.py makemigrations
+    9. Наслаждайтесь! 
+```
